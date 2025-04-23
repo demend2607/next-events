@@ -114,7 +114,7 @@ exports.Prisma.TransactionIsolationLevel = makeStrictEnum({
   Serializable: 'Serializable'
 });
 
-exports.Prisma.NextEventsScalarFieldEnum = {
+exports.Prisma.EventoEventScalarFieldEnum = {
   id: 'id',
   name: 'name',
   slug: 'slug',
@@ -135,7 +135,7 @@ exports.Prisma.SortOrder = {
 
 
 exports.Prisma.ModelName = {
-  NextEvents: 'NextEvents'
+  EventoEvent: 'EventoEvent'
 };
 
 /**

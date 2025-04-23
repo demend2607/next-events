@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import { EventsType } from "@/shared/lib/types";
+import { EventoEvent } from "@prisma/client";
 
-export default function EventInner({ event }: { event: EventsType }) {
+export default function EventInner({ event }: { event: EventoEvent }) {
   return (
     <>
       <section className="relative h-[360px] overflow-hidden flex justify-center items-center">

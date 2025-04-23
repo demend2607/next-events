@@ -4,11 +4,11 @@ import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
-import { EventsType } from "../../../shared/lib/types";
+import { EventoEvent } from "@prisma/client";
 
 const MotionLink = motion.create(Link);
 
-export default function EventCard({ event }: { event: EventsType }) {
+export default function EventCard({ event }: { event: EventoEvent }) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
