@@ -48,7 +48,7 @@
   }
 
   .general-content {
-    @apply flex flex-col items-center py-30;
+    @apply flex flex-col items-center py-26;
   }
 
   .general-effects {
@@ -57,5 +57,9 @@
 
   .event-inner_p {
     @apply max-w-4xl mx-auto text-lg leading-8;
+  }
+
+  .pagination-link {
+    @apply text-white px-5 py-3 gap-x-2 bg-white/5 flex items-center opacity-75 hover:opacity-100 transition text-sm
   }
 }
