@@ -7,7 +7,7 @@ import { capitalize } from "@/shared/lib/hooks/utils";
 
 import Loading from "../loading";
 
-export async function generateMetadata({ params }: Readonly<{ params: { city: string } }>): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ city: string }> }): Promise<Metadata> {
   const { city } = await params;
 
   return {
@@ -21,8 +21,8 @@ export default async function EventsCity({
   params,
   searchParams,
 }: {
-  params: { city: string };
-  searchParams: { [key: string]: string | string[] | undefined };
+  params: Promise<{ city: string }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
   const { city } = await params;
   const parcedPage = pageNumberSchema.safeParse((await searchParams).page);
