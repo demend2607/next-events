@@ -1,5 +1,16 @@
 import type { NextConfig } from "next";
 
+// module.exports = {
+//   async rewrites() {
+//     return [
+//       {
+//         source: "/events/",
+//         destination: "http://127.0.0.1:5328/events",
+//       },
+//     ];
+//   },
+// };
+
 const nextConfig: NextConfig = {
   /* config options here */
   allowedDevOrigins: ["http://localhost:3000"],
