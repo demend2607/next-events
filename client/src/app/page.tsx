@@ -1,5 +1,7 @@
-import SearchForm from "@/features/search-form/SearchForm";
 import Link from "next/link";
+
+import SearchForm from "@/features/search-form/SearchForm";
+import ActionFromServer from "@/features/api/ui/ActionFromServer";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <p className="mb-10 mt-5 text-2xl lg:text-3xl">
         Browse more than <span className="text-general italic font-bold underline">10,000 events</span> around you
       </p>
+
+      <ActionFromServer />
 
       <SearchForm />
 

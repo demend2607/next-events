@@ -5,7 +5,7 @@ import type { NextConfig } from "next";
 //     return [
 //       {
 //         source: "/events/",
-//         destination: "http://127.0.0.1:5328/events",
+//         destination: "http://127.0.0.1:5000/api/home",
 //       },
 //     ];
 //   },
