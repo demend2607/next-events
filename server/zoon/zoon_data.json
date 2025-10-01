@@ -1,0 +1,109 @@
+[
+    {
+        "item_name": "Автоцентр Фотон-Авто",
+        "item_phone_list": [
+            "+79144200881"
+        ],
+        "item_address": "Хабаровск,   Ленинградская,   18а, 2 этаж",
+        "item_website": null,
+        "item_social_list": null
+    },
+    {
+        "item_name": "Детейлинг-студия Ceramic Pro",
+        "item_phone_list": [
+            "+79144116962"
+        ],
+        "item_address": "Хабаровск,   улица Кубяка,   2а/1, компания находится за робомойкой",
+        "item_website": "https://www.instagram.com/ceramicpro_khv?utm_source=qr&igsh=ym1vzjljmghwejd0",
+        "item_social_list": null
+    },
+    {
+        "item_name": "Автосервис AVTOMEHANIKA27",
+        "item_phone_list": [
+            "+79243042655"
+        ],
+        "item_address": "Хабаровск,   Индустриальный район,   680001,   Строительная улица,   23А",
+        "item_website": "https://oblachko.business.site/",
+        "item_social_list": [
+            "https://vk.com/kuzovnoy_remont_sto72"
+        ]
+    },
+    {
+        "item_name": "Автосервис кузовного ремонта Кузов Центр",
+        "item_phone_list": [
+            "+79294122120"
+        ],
+        "item_address": "Хабаровск,   Пригородная улица,   4/1, 1 этаж",
+        "item_website": "https://kuzov.center",
+        "item_social_list": null
+    },
+    {
+        "item_name": "Автоцентр 555",
+        "item_phone_list": [
+            "+74212618744",
+            "+79145472515",
+            "+74212774232",
+            "+74212555005",
+            "+79145482193"
+        ],
+        "item_address": "Хабаровск,   улица Шевчука,   22Б, 1 этаж",
+        "item_website": "https://www.master555.ru",
+        "item_social_list": null
+    },
+    {
+        "item_name": "Автосервис Железяка",
+        "item_phone_list": [
+            "+74212310310",
+            "+78001003122",
+            "+74212725555"
+        ],
+        "item_address": "Хабаровск,   Бассейный переулок,   7/1, 1—2 этаж",
+        "item_website": "https://www.железяка27.рф/",
+        "item_social_list": [
+            "https://vk.com/jeleziaka27"
+        ]
+    },
+    {
+        "item_name": "Carbonof",
+        "item_phone_list": [
+            "+79144042006",
+            "+79098256646"
+        ],
+        "item_address": "Хабаровск,   Промышленный переулок,   10/1, 69; 70; 71 бокс",
+        "item_website": "https://carbonof.ru",
+        "item_social_list": null
+    },
+    {
+        "item_name": "Официальный дилер StarLine Угона.нет",
+        "item_phone_list": [
+            "+79145420505",
+            "+74212250505"
+        ],
+        "item_address": "Хабаровск,   проспект 60-летия Октября,   137а/1",
+        "item_website": "https://hab.ugona.net",
+        "item_social_list": [
+            "https://vk.com/ugonanetkhv"
+        ]
+    },
+    {
+        "item_name": "Автостудия Детейлинг Бокс",
+        "item_phone_list": [
+            "+74212656624",
+            "+79098226624"
+        ],
+        "item_address": "Хабаровск,   улица Лейтенанта Шмидта,   3а",
+        "item_website": "https://autoshine9.wix.com/",
+        "item_social_list": null
+    },
+    {
+        "item_name": "Детейлинг-центр Визарт",
+        "item_phone_list": [
+            "+74212717580"
+        ],
+        "item_address": "Хабаровск,   Волжская улица,   23а",
+        "item_website": "https://visart.su",
+        "item_social_list": [
+            "https://vk.com/visart_su"
+        ]
+    }
+]
