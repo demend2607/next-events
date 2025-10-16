@@ -1,0 +1,130 @@
+,All Countries
+US,United States of America
+DE,Germany
+GB,United Kingdom of Great Britain and Northern Ireland
+BE,Belgium
+CR,Costa Rica
+CA,Canada
+ID,Indonesia
+BZ,Belize
+KZ,Kazakhstan
+RU,Russian Federation
+EE,Estonia
+SG,Singapore
+NL,Netherlands
+UA,Ukraine
+CY,Cyprus
+ZA,South Africa
+CW,Curacao
+PH,Philippines
+AU,Australia
+SE,Sweden
+LT,Lithuania
+AR,Argentina
+-,-
+BD,Bangladesh
+SA,Saudi Arabia
+HN,Honduras
+CZ,Czechia
+VN,Viet Nam
+TW,Taiwan
+AT,Austria
+CN,China
+ES,Spain
+AE,United Arab Emirates
+BR,Brazil
+CH,Switzerland
+MY,Malaysia
+TH,Thailand
+RO,Romania
+FR,France
+HK,Hong Kong
+MX,Mexico
+BH,Bahrain
+RS,Serbia
+PL,Poland
+VE,Venezuela
+PY,Paraguay
+SK,Slovakia
+GH,Ghana
+AL,Albania
+IN,India
+TR,Turkiye
+HR,Croatia
+MZ,Mozambique
+NZ,New Zealand
+EG,Egypt
+CO,Colombia
+LA,Lao People's Democratic Republic
+UY,Uruguay
+PA,Panama
+AM,Armenia
+KR,Korea
+BY,Belarus
+JP,Japan
+CL,Chile
+KH,Cambodia
+GR,Greece
+BG,Bulgaria
+AO,Angola
+FI,Finland
+IQ,Iraq
+IR,Iran
+PK,Pakistan
+DO,Dominican Republic
+CG,Congo
+AZ,Azerbaijan
+IT,Italy
+IL,Israel
+SI,Slovenia
+MN,Mongolia
+BA,Bosnia and Herzegovina
+LY,Libya
+IE,Ireland
+EC,Ecuador
+NG,Nigeria
+NI,Nicaragua
+PE,Peru
+ZW,Zimbabwe
+BW,Botswana
+UG,Uganda
+SC,Seychelles
+KE,Kenya
+PR,Puerto Rico
+UZ,Uzbekistan
+NP,Nepal
+GE,Georgia
+PS,Palestine, State of
+HU,Hungary
+TT,Trinidad and Tobago
+ZM,Zambia
+DK,Denmark
+GT,Guatemala
+BO,Bolivia
+LS,Lesotho
+ME,Montenegro
+SY,Syrian Arab Republic
+LV,Latvia
+DZ,Algeria
+KG,Kyrgyzstan
+LK,Sri Lanka
+CD,Congo
+MW,Malawi
+BT,Bhutan
+QA,Qatar
+BF,Burkina Faso
+LB,Lebanon
+CM,Cameroon
+SN,Senegal
+LU,Luxembourg
+TZ,Tanzania, the United Republic of
+RW,Rwanda
+PG,Papua New Guinea
+NO,Norway
+SO,Somalia
+MM,Myanmar
+MD,Moldova
+SS,South Sudan
+GQ,Equatorial Guinea
+MT,Malta
+AF,Afghanistan

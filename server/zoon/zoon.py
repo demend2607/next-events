@@ -19,12 +19,12 @@ headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
 }
 
-def get_source_html(url):
+def get_source_html():
 
     driver = webdriver.Chrome()
     driver.maximize_window()
     try:
-        driver.get(url)
+        driver.get(zoon_link)
         time.sleep(random.randrange(4, 6)) 
         
         while True:
@@ -52,8 +52,8 @@ def get_source_html(url):
         driver.quit()
 
         
-def get_items_urls(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
+def get_items_urls():
+    with open('zoon/zoon.html', 'r', encoding='utf-8') as file:
         src = file.read()
         
     soup = BeautifulSoup(src, 'lxml')
@@ -64,8 +64,8 @@ def get_items_urls(file_path):
         for item in items_info:
             item_url = item.find('div', class_='minicard-item__title').find('a').get('href')
             urls.append(item_url)    
-            with open('zoon/zoon_urls.txt', 'w', encoding='utf-8') as file:
-                file.write('\n'.join(urls))
+        with open('zoon/zoon_urls.txt', 'w', encoding='utf-8') as file:
+            file.write('\n'.join(urls))
     except Exception as error:
         print(f'Error has occurred: {error}')
         return '[INFO] Urls are not collected' 
@@ -80,8 +80,8 @@ def url_cleaner(url):
     except Exception as _ex:
         return None
 
-def get_data(url):
-    with open(url, 'r', encoding='utf-8') as file:
+def get_data():
+    with open('zoon/zoon_urls.txt', 'r', encoding='utf-8') as file:
         urls_list = [url.strip() for url in file.readlines()]
         
     result_list = []
@@ -135,22 +135,21 @@ def get_data(url):
                             "item_website": item_website, 
                             "item_social_list": item_social_list
                             })
-        time.sleep(random.randrange(3, 5)) 
+        time.sleep(random.randrange(2, 4)) 
         if count%10 == 0:
-            time.sleep(random.randrange(5, 9)) 
+            time.sleep(random.randrange(4, 6))
             
-        print(f'[+] Progress: {count}/{urls_count}')
+        print(f'[+] Progress: {count}/{urls_count}') 
         count+=1
-        
     with open('zoon/zoon_data.json', 'w', encoding='utf-8') as file:
         json.dump(result_list, file, indent=4, ensure_ascii=False)
     
     return "[INFO] Data collected successfully"
         
 def main():
-    print(get_source_html(zoon_link))
-    print(get_items_urls('zoon/zoon.html'))
-    print(get_data('zoon/zoon_urls.txt'))
+    print(get_source_html())
+    print(get_items_urls())
+    print(get_data())
 
 
 if __name__ == '__main__':

@@ -9,48 +9,6 @@
         "item_social_list": null
     },
     {
-        "item_name": "Детейлинг-студия Ceramic Pro",
-        "item_phone_list": [
-            "+79144116962"
-        ],
-        "item_address": "Хабаровск,   улица Кубяка,   2а/1, компания находится за робомойкой",
-        "item_website": "https://www.instagram.com/ceramicpro_khv?utm_source=qr&igsh=ym1vzjljmghwejd0",
-        "item_social_list": null
-    },
-    {
-        "item_name": "Автосервис AVTOMEHANIKA27",
-        "item_phone_list": [
-            "+79243042655"
-        ],
-        "item_address": "Хабаровск,   Индустриальный район,   680001,   Строительная улица,   23А",
-        "item_website": "https://oblachko.business.site/",
-        "item_social_list": [
-            "https://vk.com/kuzovnoy_remont_sto72"
-        ]
-    },
-    {
-        "item_name": "Автосервис кузовного ремонта Кузов Центр",
-        "item_phone_list": [
-            "+79294122120"
-        ],
-        "item_address": "Хабаровск,   Пригородная улица,   4/1, 1 этаж",
-        "item_website": "https://kuzov.center",
-        "item_social_list": null
-    },
-    {
-        "item_name": "Автоцентр 555",
-        "item_phone_list": [
-            "+74212618744",
-            "+79145472515",
-            "+74212774232",
-            "+74212555005",
-            "+79145482193"
-        ],
-        "item_address": "Хабаровск,   улица Шевчука,   22Б, 1 этаж",
-        "item_website": "https://www.master555.ru",
-        "item_social_list": null
-    },
-    {
         "item_name": "Автосервис Железяка",
         "item_phone_list": [
             "+74212310310",
@@ -64,6 +22,65 @@
         ]
     },
     {
+        "item_name": "Детейлинг-центр Элит авто",
+        "item_phone_list": [
+            "+79625851212"
+        ],
+        "item_address": "Хабаровск,   улица Дикопольцева,   26а/1",
+        "item_website": "https://www.elite-auto27.ru",
+        "item_social_list": [
+            "https://vk.com/elite_auto27"
+        ]
+    },
+    {
+        "item_name": "Магазин автоэмалей Автокраски-ДВ",
+        "item_phone_list": [
+            "+74212205120"
+        ],
+        "item_address": "Хабаровск,   Прогрессивная улица,   10/1, 2 этаж",
+        "item_website": "https://ak-dv.ru/",
+        "item_social_list": null
+    },
+    {
+        "item_name": "Детейлинг-студия Смывайся",
+        "item_phone_list": [
+            "+79147777073"
+        ],
+        "item_address": "Хабаровск,   Краснодарская улица,   114, 1 этаж",
+        "item_website": "https://api.whatsapp.com/send/?phone=79147777073&text=%d0%b7%d0%b4%d1%80%d0%b0%d0%b2%d1%81%d1%82%d0%b2%d1%83%d0%b9%d1%82%d0%b5%21%0a%0a%d0%bf%d0%b8%d1%88%d1%83+%d0%b8%d0%b7+%d0%bf%d1%80%d0%b8%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d1%8f+2%d0%b3%d0%b8%d1%81.%0a%0a&type=phone_number&app_absent=0",
+        "item_social_list": null
+    },
+    {
+        "item_name": "Автоцентр Тойота Центр Хабаровск",
+        "item_phone_list": [
+            "+74212417741"
+        ],
+        "item_address": "Хабаровск,   улица Морозова Павла Леонтьевича,   62, 1—2 этаж",
+        "item_website": "https://www.smkh.ru",
+        "item_social_list": [
+            "https://vk.com/toyotakhv"
+        ]
+    },
+    {
+        "item_name": "Студия тонирования автостёкол ДаркСайд",
+        "item_phone_list": [
+            "+79940624815"
+        ],
+        "item_address": "Хабаровск,   улица Ворошилова,   9а к1",
+        "item_website": "https://t.me/darksidekhv",
+        "item_social_list": null
+    },
+    {
+        "item_name": "Автосервис Формакс",
+        "item_phone_list": [
+            "+74212206710",
+            "+74212206750"
+        ],
+        "item_address": "Хабаровск,   Перекопская улица,   2д/1, 3 бокс",
+        "item_website": null,
+        "item_social_list": null
+    },
+    {
         "item_name": "Carbonof",
         "item_phone_list": [
             "+79144042006",
@@ -74,36 +91,17 @@
         "item_social_list": null
     },
     {
-        "item_name": "Официальный дилер StarLine Угона.нет",
+        "item_name": "Автомагазин и автосервис Гиперавто",
         "item_phone_list": [
-            "+79145420505",
-            "+74212250505"
+            "+78005552388",
+            "+74212950985",
+            "+74212758467",
+            "+74212758466"
         ],
-        "item_address": "Хабаровск,   проспект 60-летия Октября,   137а/1",
-        "item_website": "https://hab.ugona.net",
+        "item_address": "Хабаровск,   Воронежская улица,   95, 1—2 этаж",
+        "item_website": "https://hyperauto.ru",
         "item_social_list": [
-            "https://vk.com/ugonanetkhv"
-        ]
-    },
-    {
-        "item_name": "Автостудия Детейлинг Бокс",
-        "item_phone_list": [
-            "+74212656624",
-            "+79098226624"
-        ],
-        "item_address": "Хабаровск,   улица Лейтенанта Шмидта,   3а",
-        "item_website": "https://autoshine9.wix.com/",
-        "item_social_list": null
-    },
-    {
-        "item_name": "Детейлинг-центр Визарт",
-        "item_phone_list": [
-            "+74212717580"
-        ],
-        "item_address": "Хабаровск,   Волжская улица,   23а",
-        "item_website": "https://visart.su",
-        "item_social_list": [
-            "https://vk.com/visart_su"
+            "https://vk.com/hyperauto_ru"
         ]
     }
 ]
