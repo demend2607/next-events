@@ -12,6 +12,8 @@ import json
 import time
 import random
 import multiprocessing
+import os
+from datetime import datetime
 
 
 import requests
@@ -51,21 +53,19 @@ params = {
     'page': '1',
 }
 
+session = requests.Session()
 page_url = 'https://www.freeproxy.world/'
 
-def get_page():
-    try:
-        session = requests.Session()
-        response_init = session.get(page_url, params=params, headers=headers)
-        # class="layui-table"
-        with open('proxy/initial.html', 'w', encoding='utf-8') as file:
-            file.write(response_init.text)
+def select_country():
+    if not os.path.exists('proxy/countries.txt'):
+        print('countries.txt not found, start collecting...')
+        if not os.path.exists('proxy/initial.html'):
+            print('initial.html not found, start collecting...')
+            get_initial_data()
             
-        proxy_base = []
-        countries_base = []
-        with open(f'proxy/initial.html', 'r', encoding='utf-8') as file:
+        with open('proxy/initial.html', 'r', encoding='utf-8') as file:
             src = file.read()
-            
+        countries_base = []
         soup_init = BeautifulSoup(src, 'lxml')
         countries = soup_init.find('select',  attrs = {'name': 'country'}  ).find_all('option')
         for c in countries:
@@ -75,14 +75,28 @@ def get_page():
         with open(f'proxy/countries.txt', 'w', encoding='utf-8') as file:
             file.write('\n'.join([f'{c[0]},{c[1]}' for c in countries_base]))
 
-        # country choice
-        selec_country = input("Select country: ")
-        params['country'] = selec_country
-        if selec_country == 'all':
-            params['country'] = ''
+    # select_country = input("Select country: ").upper()
+    # params['country'] = select_country
+    # if select_country == 'ALL':
+    params['country'] = ''
+    return params['country']
+
+def get_initial_data():
+    try:
+        response_init = session.get(page_url, params=params, headers=headers)
+        with open('proxy/initial.html', 'w', encoding='utf-8') as file:
+            file.write(response_init.text)
         time.sleep(2)
-        for page in range(1, 3):
-            print(page)
+        return f'[INFO] get_initial_data is done successfully'
+    except Exception as ex:
+        return f'[Error] get_initial_data has occurred: {ex}'
+
+def collect_proxies():
+    try:
+        proxy_base = []
+        params['country'] = select_country()
+        print(params)
+        for page in range(1, 2):
             params['page'] = str(page)
             response = session.get(page_url, params=params, headers=headers)
             soup = BeautifulSoup(response.text, 'lxml')
@@ -101,23 +115,59 @@ def get_page():
                         'country': item[2].text.strip(),
                         'type': item[5].text.strip(),
                         })
+            print(f"[+] Page {page} is parsed")
             time.sleep(random.randrange(3,5))
         with open(f'proxy/raw_proxies.txt', 'w', encoding='utf-8') as file:
-            for proxy in proxy_base:
-                file.write(json.dumps(proxy) + '\n')
-        return "[INFO] Page is recorded successfully"
+            json.dump(proxy_base, file, indent=2, ensure_ascii=False)
+        return f'[INFO] collect_proxies is done successfully'
     except Exception as ex:
-        return f"[ERROR] something went wrong while getting page: {ex}"
-def collect_proxies():
+        return f'[Error] collect_proxies has occurred: {ex}'
 
+def proxy_handler(proxy):
+    time.sleep(random.randrange(1, 4))
+    link = f"http://icanhazip.com/"
     
-    
-    return "[INFO] Proxies are collected successfully"
+    proxies = {
+        'http': f'http://{proxy}',
+        'https': f'https://{proxy}'
+    }
 
-def main():
-    print(get_page())
+    try:
+        response = requests.get(link, proxies=proxies, timeout=2).text
+        return proxy
+    except:
+        return None
+
+def multi_proxy_check():
+    with open('proxy/raw_proxies.txt', 'r') as file:
+            proxies = json.loads(file.read())
+            proxy_base = [proxy['ip'] + ':' + proxy['port'] for proxy in proxies]
+
+    with multiprocessing.Pool(multiprocessing.cpu_count()) as process:
+        results = process.map(proxy_handler, proxy_base)
+    
+    valid_proxy_keys = [proxy for proxy in results if proxy is not None]
+    
+    # Filter original proxies to keep only valid ones
+    valid_proxies = []
+    for proxy in proxies:
+        proxy_key = proxy['ip'] + ':' + proxy['port']
+        if proxy_key in valid_proxy_keys:
+            valid_proxies.append(proxy)
+
+    with open('proxy/Valid.txt', 'w') as file:
+        json.dump(valid_proxies, file, indent=2, ensure_ascii=False)
+    
+    return f'[INFO] get_initial_data is done successfully'
+
+def main_handler():
+    with open('proxy/scheduler.txt', 'a', encoding='utf-8') as file:
+        file.write(f'Запущено🔄: {datetime.now().strftime("%d.%m.%Y %H:%M")}\n')
     print(collect_proxies())
+    print(multi_proxy_check())
+    with open('proxy/scheduler.txt', 'a', encoding='utf-8') as file:
+        file.write(f'Завершено✅: {datetime.now().strftime("%d.%m.%Y %H:%M")}\n\n')
 
 
 if __name__ == '__main__':
-    main()
+    main_handler()

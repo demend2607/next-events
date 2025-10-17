@@ -29,24 +29,28 @@ def proxy_handler(proxy):
         return None
 
 def multi_proxy_check():
-    with open('proxy/Raw.txt', 'r') as file:
-        proxy_base = ''.join(file.readlines()).strip().split('\n')
+    try:
+        with open('proxy/Raw.txt', 'r') as file:
+            proxy_base = [proxy.strip() for proxy in file.readlines()]
+        print(proxy_base)
+        with multiprocessing.Pool(multiprocessing.cpu_count()) as process:
+            results = process.map(proxy_handler, proxy_base)
+            
+        valid_proxy = [proxy for proxy in results if proxy is not None]
+            
         
-    with multiprocessing.Pool(multiprocessing.cpu_count()) as process:
-        results = process.map(proxy_handler, proxy_base)
-        
-    valid_proxy = [proxy for proxy in results if proxy is not None]
-        
-    
-    with open('proxy/Valid.txt', 'w') as file:
-        file.write('\n'.join(valid_proxy))
+        with open('proxy/Valid.txt', 'w') as file:
+            file.write('\n'.join(valid_proxy))
+        return f'[INFO] multi_proxy_check is done successfully'
+    except Exception as ex:
+        return f'[Error] multi_proxy_check has occurred: {ex}'
 
 @app.route('/api/home', methods=['GET'])
 def return_home():
     print(multi_proxy_check())
     
-    with open('proxy/Valid.txt') as file:
-        proxy_base = ''.join(file.readlines()).strip().split('\n')
+    with open('proxy/Valid.txt', 'r') as file:
+        proxy_base = [proxy.strip() for proxy in file.readlines()]
     
 
 

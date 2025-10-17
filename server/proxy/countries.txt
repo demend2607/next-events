@@ -1,130 +1,129 @@
 ,All Countries
 US,United States of America
-DE,Germany
-GB,United Kingdom of Great Britain and Northern Ireland
-BE,Belgium
-CR,Costa Rica
-CA,Canada
 ID,Indonesia
-BZ,Belize
-KZ,Kazakhstan
+BE,Belgium
 RU,Russian Federation
-EE,Estonia
-SG,Singapore
+GB,United Kingdom of Great Britain and Northern Ireland
+BZ,Belize
+DE,Germany
+CW,Curacao
 NL,Netherlands
-UA,Ukraine
+SG,Singapore
+EE,Estonia
+AT,Austria
+ES,Spain
+KZ,Kazakhstan
 CY,Cyprus
 ZA,South Africa
-CW,Curacao
-PH,Philippines
+UA,Ukraine
+CA,Canada
 AU,Australia
-SE,Sweden
 LT,Lithuania
-AR,Argentina
--,-
-BD,Bangladesh
-SA,Saudi Arabia
-HN,Honduras
-CZ,Czechia
-VN,Viet Nam
-TW,Taiwan
-AT,Austria
-CN,China
-ES,Spain
-AE,United Arab Emirates
-BR,Brazil
-CH,Switzerland
-MY,Malaysia
-TH,Thailand
-RO,Romania
-FR,France
 HK,Hong Kong
-MX,Mexico
-BH,Bahrain
-RS,Serbia
-PL,Poland
+AE,United Arab Emirates
+CN,China
+RO,Romania
+CZ,Czechia
+PH,Philippines
+-,-
+BR,Brazil
 VE,Venezuela
-PY,Paraguay
-SK,Slovakia
-GH,Ghana
-AL,Albania
-IN,India
-TR,Turkiye
-HR,Croatia
-MZ,Mozambique
-NZ,New Zealand
-EG,Egypt
-CO,Colombia
-LA,Lao People's Democratic Republic
-UY,Uruguay
-PA,Panama
-AM,Armenia
-KR,Korea
-BY,Belarus
 JP,Japan
-CL,Chile
-KH,Cambodia
-GR,Greece
-BG,Bulgaria
-AO,Angola
-FI,Finland
-IQ,Iraq
-IR,Iran
-PK,Pakistan
-DO,Dominican Republic
-CG,Congo
-AZ,Azerbaijan
-IT,Italy
-IL,Israel
-SI,Slovenia
-MN,Mongolia
-BA,Bosnia and Herzegovina
-LY,Libya
-IE,Ireland
-EC,Ecuador
-NG,Nigeria
-NI,Nicaragua
-PE,Peru
-ZW,Zimbabwe
-BW,Botswana
-UG,Uganda
-SC,Seychelles
-KE,Kenya
-PR,Puerto Rico
-UZ,Uzbekistan
-NP,Nepal
-GE,Georgia
-PS,Palestine, State of
-HU,Hungary
-TT,Trinidad and Tobago
-ZM,Zambia
-DK,Denmark
-GT,Guatemala
-BO,Bolivia
-LS,Lesotho
-ME,Montenegro
-SY,Syrian Arab Republic
-LV,Latvia
-DZ,Algeria
-KG,Kyrgyzstan
-LK,Sri Lanka
-CD,Congo
-MW,Malawi
-BT,Bhutan
-QA,Qatar
-BF,Burkina Faso
-LB,Lebanon
-CM,Cameroon
-SN,Senegal
-LU,Luxembourg
-TZ,Tanzania, the United Republic of
-RW,Rwanda
-PG,Papua New Guinea
-NO,Norway
 SO,Somalia
-MM,Myanmar
-MD,Moldova
-SS,South Sudan
-GQ,Equatorial Guinea
+NP,Nepal
+PE,Peru
+SE,Sweden
+CO,Colombia
+BD,Bangladesh
+PY,Paraguay
+CR,Costa Rica
+TR,Turkiye
+AR,Argentina
+FR,France
+VN,Viet Nam
+EG,Egypt
+PS,Palestine, State of
+MY,Malaysia
+PK,Pakistan
+KR,Korea
+MX,Mexico
+GE,Georgia
+IT,Italy
+BH,Bahrain
+TH,Thailand
+FI,Finland
+IN,India
+PR,Puerto Rico
+EC,Ecuador
+PA,Panama
+LS,Lesotho
+DO,Dominican Republic
+IR,Iran
+TZ,Tanzania, the United Republic of
+CL,Chile
+AL,Albania
+IE,Ireland
+TT,Trinidad and Tobago
+BY,Belarus
+TW,Taiwan
+PL,Poland
+SK,Slovakia
+NG,Nigeria
+DK,Denmark
+KH,Cambodia
+HN,Honduras
+GT,Guatemala
+SA,Saudi Arabia
+UY,Uruguay
+KE,Kenya
+AM,Armenia
+IQ,Iraq
+SC,Seychelles
+BG,Bulgaria
+RS,Serbia
+ME,Montenegro
+GR,Greece
+NI,Nicaragua
+AO,Angola
+IL,Israel
+BA,Bosnia and Herzegovina
+HU,Hungary
+SN,Senegal
+NZ,New Zealand
+SY,Syrian Arab Republic
 MT,Malta
+MZ,Mozambique
+UZ,Uzbekistan
+LY,Libya
+BO,Bolivia
+ZW,Zimbabwe
+RW,Rwanda
+MD,Moldova
+LV,Latvia
+LB,Lebanon
+KG,Kyrgyzstan
+HR,Croatia
+SV,El Salvador
+BT,Bhutan
+MU,Mauritius
+QA,Qatar
+UG,Uganda
+GH,Ghana
+SX,Sint Maarten
+CH,Switzerland
+BW,Botswana
+MN,Mongolia
+ZM,Zambia
+PT,Portugal
+CG,Congo
+LA,Lao People's Democratic Republic
+TL,Timor-Leste
+CD,Congo
 AF,Afghanistan
+LK,Sri Lanka
+MW,Malawi
+YE,Yemen
+NO,Norway
+SL,Sierra Leone
+AZ,Azerbaijan
+CM,Cameroon
