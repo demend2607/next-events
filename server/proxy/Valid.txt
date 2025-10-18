@@ -1,300 +1,294 @@
 [
   {
-    "ip": "104.16.80.80",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "173.245.49.146",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "172.67.221.222",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "162.159.241.204",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "172.67.240.126",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "160.153.0.87",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "104.18.162.9",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "104.16.0.67",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "104.16.92.153",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "46.254.92.181",
-    "port": "80",
-    "country": "Indonesia",
-    "type": "http"
-  },
-  {
-    "ip": "172.67.182.40",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "172.67.167.87",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "104.19.157.250",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "45.85.119.52",
-    "port": "80",
-    "country": "Belgium",
-    "type": "http"
-  },
-  {
-    "ip": "104.18.12.36",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "159.246.55.144",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "104.25.61.11",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "45.8.211.0",
+    "ip": "185.221.160.227",
     "port": "80",
     "country": "Russian Federation",
     "type": "http"
   },
   {
-    "ip": "156.225.72.76",
+    "ip": "45.131.6.80",
+    "port": "80",
+    "country": "Belize",
+    "type": "http"
+  },
+  {
+    "ip": "45.12.31.255",
+    "port": "80",
+    "country": "Belgium",
+    "type": "http"
+  },
+  {
+    "ip": "172.66.41.4",
     "port": "80",
     "country": "United States of America",
     "type": "http"
   },
   {
-    "ip": "104.17.112.6",
+    "ip": "104.21.57.62",
     "port": "80",
     "country": "United States of America",
     "type": "http"
   },
   {
-    "ip": "194.36.55.176",
+    "ip": "104.17.114.182",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "45.12.31.216",
+    "port": "80",
+    "country": "Belgium",
+    "type": "http"
+  },
+  {
+    "ip": "103.169.142.98",
+    "port": "80",
+    "country": "Australia",
+    "type": "http"
+  },
+  {
+    "ip": "185.162.231.67",
     "port": "80",
     "country": "United Kingdom of Great Britain and Northern Ireland",
     "type": "http"
   },
   {
-    "ip": "104.25.0.137",
+    "ip": "104.18.68.162",
     "port": "80",
     "country": "United States of America",
     "type": "http"
   },
   {
-    "ip": "108.162.192.158",
+    "ip": "104.19.68.248",
     "port": "80",
     "country": "United States of America",
     "type": "http"
   },
   {
-    "ip": "209.46.30.19",
+    "ip": "104.18.62.84",
     "port": "80",
     "country": "United States of America",
     "type": "http"
   },
   {
-    "ip": "192.200.160.130",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "172.67.74.57",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "172.66.40.213",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "104.17.72.73",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "45.131.5.67",
-    "port": "80",
-    "country": "Belize",
-    "type": "http"
-  },
-  {
-    "ip": "45.12.31.174",
-    "port": "80",
-    "country": "Belgium",
-    "type": "http"
-  },
-  {
-    "ip": "45.131.6.176",
-    "port": "80",
-    "country": "Belize",
-    "type": "http"
-  },
-  {
-    "ip": "104.17.127.254",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "141.101.120.198",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "103.160.204.38",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "185.148.106.80",
-    "port": "80",
-    "country": "Russian Federation",
-    "type": "http"
-  },
-  {
-    "ip": "172.67.254.241",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "45.159.218.49",
+    "ip": "45.80.111.192",
     "port": "80",
     "country": "Germany",
     "type": "http"
   },
   {
-    "ip": "91.193.59.76",
-    "port": "80",
-    "country": "United Kingdom of Great Britain and Northern Ireland",
-    "type": "http"
-  },
-  {
-    "ip": "45.131.5.56",
-    "port": "80",
-    "country": "Belize",
-    "type": "http"
-  },
-  {
-    "ip": "172.67.123.70",
+    "ip": "103.160.204.142",
     "port": "80",
     "country": "United States of America",
     "type": "http"
   },
   {
-    "ip": "104.24.193.227",
+    "ip": "23.227.38.246",
+    "port": "80",
+    "country": "Canada",
+    "type": "http"
+  },
+  {
+    "ip": "209.46.30.176",
     "port": "80",
     "country": "United States of America",
     "type": "http"
   },
   {
-    "ip": "164.38.155.46",
-    "port": "80",
-    "country": "United Kingdom of Great Britain and Northern Ireland",
-    "type": "http"
-  },
-  {
-    "ip": "104.24.0.191",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "185.162.228.233",
-    "port": "80",
-    "country": "United Kingdom of Great Britain and Northern Ireland",
-    "type": "http"
-  },
-  {
-    "ip": "45.194.53.62",
-    "port": "80",
-    "country": "United States of America",
-    "type": "http"
-  },
-  {
-    "ip": "62.72.166.83",
-    "port": "80",
-    "country": "Curacao",
-    "type": "http"
-  },
-  {
-    "ip": "185.148.106.15",
+    "ip": "185.148.106.105",
     "port": "80",
     "country": "Russian Federation",
     "type": "http"
   },
   {
-    "ip": "45.12.30.81",
+    "ip": "185.193.30.14",
     "port": "80",
     "country": "Belgium",
     "type": "http"
   },
   {
-    "ip": "104.16.98.172",
+    "ip": "172.67.75.184",
     "port": "80",
     "country": "United States of America",
     "type": "http"
   },
   {
-    "ip": "160.153.1.96",
+    "ip": "188.42.89.203",
+    "port": "80",
+    "country": "Netherlands (Kingdom of the)",
+    "type": "http"
+  },
+  {
+    "ip": "103.160.204.119",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "89.116.250.230",
+    "port": "80",
+    "country": "Lithuania",
+    "type": "http"
+  },
+  {
+    "ip": "5.10.247.93",
+    "port": "80",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "type": "http"
+  },
+  {
+    "ip": "104.24.145.208",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "185.238.228.155",
+    "port": "80",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "type": "http"
+  },
+  {
+    "ip": "104.16.111.25",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "185.162.230.232",
+    "port": "80",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "type": "http"
+  },
+  {
+    "ip": "91.193.59.63",
+    "port": "80",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "type": "http"
+  },
+  {
+    "ip": "172.67.181.167",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "104.17.156.253",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "108.162.193.108",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "162.159.242.205",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "91.193.58.93",
+    "port": "80",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "type": "http"
+  },
+  {
+    "ip": "185.148.104.25",
+    "port": "80",
+    "country": "Russian Federation",
+    "type": "http"
+  },
+  {
+    "ip": "104.19.186.164",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "209.46.30.61",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "160.153.0.166",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "104.18.118.67",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "69.84.182.2",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "31.43.179.3",
+    "port": "80",
+    "country": "Kazakhstan",
+    "type": "http"
+  },
+  {
+    "ip": "31.12.75.13",
+    "port": "80",
+    "country": "Russian Federation",
+    "type": "http"
+  },
+  {
+    "ip": "141.101.121.114",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "160.123.255.157",
+    "port": "80",
+    "country": "South Africa",
+    "type": "http"
+  },
+  {
+    "ip": "159.112.235.121",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "170.114.46.48",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "46.254.93.95",
+    "port": "80",
+    "country": "Indonesia",
+    "type": "http"
+  },
+  {
+    "ip": "154.194.12.199",
+    "port": "80",
+    "country": "Singapore",
+    "type": "http"
+  },
+  {
+    "ip": "104.19.220.87",
+    "port": "80",
+    "country": "United States of America",
+    "type": "http"
+  },
+  {
+    "ip": "159.246.55.145",
     "port": "80",
     "country": "United States of America",
     "type": "http"

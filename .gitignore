@@ -46,4 +46,5 @@ next-env.d.ts
 # dependencies
 /__pycache__
 /venv
+server/**/*.{html,json,txt,jpg,png}
 
